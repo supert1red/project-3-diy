@@ -1,0 +1,86 @@
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #BD373A;
+    text-shadow: 0px 0px;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #0B2530;
+	margin: 0px;
+	font-size:16px;
+	font-family:"Lato", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	fint-weight: 400;
+	line-height: 1.8em;
+	color:666;
+	
+}
+
+span .border{ 
+	align-content: center;
+	
+}
+.border {
+    text-align: center;
+    background-position: center center;
+}
+.pimg1, .pimg2, .pimg3,.pimg4,.pimg5,.pimg6{ 
+	position:relative;
+	opacity:0.70;
+	background-size:cover;
+	background-repeat: no-repeat;
+	/*Fixed=Paralax
+	  Scroll=Normal
+	*/
+	background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url(photos/earth_pic.jpeg);
+    min-height: 100%;
+}
+.pimg2{ 
+	background-image:url("photos/plastic_pic.jpeg");
+	min-height:100%;
+}
+.pimg3{ 
+	background-image: url("photos/animal.png");
+	min-height:100%;
+}
+.pimg4{
+	background-image:url("photos/people_cleaning_ocean_pic.jpeg");
+	min-height:100%;
+	
+}
+.pimg5{
+    background-image: url("photos/ocean_pic.jpeg");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pimg6{
+    background-image: url("photos/ocean_before+after.jpeg");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section-1{
+	
+	text-align:center;
+	padding: 50px 80px;
+}
+h2,p{
+    color: #AFAFAF;
+}
+.border{ 
+	text-align: center;
+	color: white;
+	margin: auto;
+	
+	
+}
+
+
